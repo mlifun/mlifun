@@ -12,9 +12,9 @@ pygments: true
 title : Jekyll Bootstrap
 tagline: Site Tagline
 author :
-  name : Name Lastname
-  email : blah@email.test
-  github : username
+  name : mlifun blog
+  email : c@cycley.com
+  github : c
   twitter : username
   feedburner : feedname
 
