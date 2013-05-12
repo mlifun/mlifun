@@ -1,0 +1,15 @@
+---
+layout: layout
+title: "流金漩涡"
+---
+
+<section class="content">
+<img src="http://ww2.sinaimg.cn/mw600/a24de86bjw1e47ogbmbbxj20dw099t8y.jpg" width="650px" height="100px">
+  <ul class="listing">
+    {% for post in site.posts %}
+    <li>
+      <span>{{ post.date | date: "%B %e, %Y" }}</span> <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
